@@ -1,0 +1,138 @@
+body {
+  /* background-image: url(pandanwaffle1.jpg); */
+  /* background-color: #cce0ac; */
+  background-image: url(yay.PNG);
+}
+
+/* Typography */
+h1 {
+  color           : white;
+  -webkit-text-stroke: 1px #a6c774;
+  font-family     : 'peperritos';
+  text-align      : center;
+  font-size       : 75px;
+  text-decoration : wavy;
+  outline         : 5px;
+  margin          : 20px auto;
+}
+
+#description {
+  text-align    : center;
+  width         : 550px;
+  justify-self  : center;
+  font-family   : peperritos;
+  /* color: #88a25e; */
+  color         : white;
+  font-size     : 30px;
+  background-color: #a6c77493;
+  border-radius: 30px;
+  padding       : 5px;
+}
+
+.difficulty {
+  color           : #88a25e;
+  font-family     : 'peperritos';
+  justify-self    : center;
+  font-size       : 30px;
+  width           : px;
+  height          : 35px;
+  background-color: #cce0ac;
+  justify-content : center;
+  border          : #88a25e 5px solid;
+  align-content   : center;
+  border-radius   : 30px;
+}
+
+select {
+  justify-self    : center;
+  color           : #88a25e;
+  font-family     : 'peperritos';
+  font-size       : 30px;
+  background-color: #ffffff00;
+  border          : 0px;
+  border-radius   : 30px;
+}
+
+#label {
+  margin-left: 10px;
+}
+
+/* Layout */
+.header {
+  background-color: #bfdc8f;
+  margin          : 20px 100px 10px 100px;
+  border-radius   : 30px;
+  border          : 5px solid #95af6b;
+  width           : 600px;
+  justify-self    : center;
+}
+
+.gridcontainer {
+  display           : grid;
+  grid-template-columns: auto auto auto;
+  background-color  : #986344;
+  padding           : 5px;
+  width             : 550px;
+  height            : 550px;
+  align-content     : center;
+  justify-content   : center;
+  margin            : auto;
+  border-radius     : 25px;
+}
+
+/* Components */
+.gridcontainer > button {
+  color           : #ffffff;
+  height          : 160px;
+  width           : 160px;
+  display         : block;
+  cursor          : pointer;
+  background-color: #95af6b;
+  border          : 7px solid #7a8f5c;
+  padding         : 20px;
+  padding-bottom  : 50px;
+  font-size       : 60px;
+  text-align      : center;
+  margin          : 10px;
+  font-family     : 'ornaments';
+  align-content   : center;
+  border-radius   : 30px;
+}
+
+.gridcontainer > button:hover {
+  background-color: #878d4d;
+}
+
+#reset {
+  margin          : auto;
+  cursor          : pointer;
+  background-color: #bfdc8f;
+  border          : 5px solid #95af6b;
+  height          : 50px;
+  width           : 150px;
+  font-family     : 'peperritos';
+  border-radius   : 30px;
+  font-size       : 30px;
+  color           : #ffffff;
+}
+
+.button-wrapper {
+  text-align  : center;
+  margin-top  : 10px;
+  margin-bottom: 10px;
+}
+
+button:disabled {
+  color: white;
+}
+
+/* Font Faces */
+@font-face {
+  font-family: 'ornaments';
+  src        : url(PeperritoOrnaments-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'peperritos';
+  src        : url(Peperritos-Regular.ttf);
+}
